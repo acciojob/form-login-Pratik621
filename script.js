@@ -1,14 +1,25 @@
 const submit=document.querySelector("input[type=submit]");
-function getFormvalue(fname,lname) {
+
+
+function getFormvalue() {
     //Write your code here
+	const fname=document.querySelector("input[name=fname]")
+    const lname=document.querySelector("input[name=lname]")
 	 alert(`${fname.value} ${lname.value}`)
 	fname.value='';
 	lname.value="";
 
 
 }
-submit.addEventListener("click",()=>{
-    const fname=document.querySelector("input[name=fname]")
-const lname=document.querySelector("input[name=lname]")
-    getFormvalue(fname,lname);
+
+document.getElementId("form1").addEventListener("submit",function(e)=>{
+	e.prevetDefault();
+	getFormvalue()
+	
 })
+
+
+
+
+
+
