@@ -1,5 +1,5 @@
 
-const submit=document.querSelector("input[type=submit]")
+const submit=document.querySelector("input[type=submit]")
 
 submit.addEventListener("click",()=>{
 	   getFormvalue()
