@@ -8,11 +8,9 @@ function getFormvalue() {
 	 alert(`${fname.value} ${lname.value}`)
 	fname.value='';
 	lname.value="";
-
-
 }
 document.getElementById("form1").addEventListener("submit",function(e){
-	e.prevetDefault();
+	e.preventDefault();
 	getFormvalue()
 	
 })
