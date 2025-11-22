@@ -1,5 +1,5 @@
 const submit=document.querySelector("input[type=submit]");
-function getFormvalue() {
+function getFormvalue(fname,lname) {
     //Write your code here
 	 alert(`${fname.value} ${lname.value}`)
 	fname.value='';
