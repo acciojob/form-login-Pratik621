@@ -11,7 +11,7 @@ function getFormvalue() {
 
 
 }
-document.getElementById("form1").addEventListener("submit",function(e)=>{
+document.getElementById("form1").addEventListener("submit",function(e){
 	e.prevetDefault();
 	getFormvalue()
 	
