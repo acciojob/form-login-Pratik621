@@ -4,4 +4,7 @@ function showAlert() {
 
   alert(fname + " " + lname);
 }
-const submit("onclick",showAlert())
+const submit=document.querySelector("input[type=submit]")
+submit.addEventListener("click",()=>{
+	("onclick",showAlert())
+})
