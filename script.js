@@ -2,7 +2,8 @@ const submit=document.querySelector("input[type=submit]");
 function getFormvalue() {
     //Write your code here
 	 alert(`${fname.value} ${lname.value}`)
-	fname.valu
+	fname.value='';
+	lname.value="";
 
 
 }
