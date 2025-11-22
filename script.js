@@ -1,13 +1,7 @@
+function showAlert() {
+  const fname = document.querySelector('input[name="fname"]').value;
+  const lname = document.querySelector('input[name="lname"]').value;
 
-const submit=document.querySelector("input[type=submit]")
-
-submit.addEventListener("click",()=>{
-	   getFormvalue()
-})
-function getFormvalue() {
-	const fname=document.querySelector(".fname")
-const lname=document.querySelector(".lname")
-	return alert(`${fname.value} ${lname.value}`)
-	
-	
+  alert(fname + " " + lname);
 }
+const submit("onclick",showAlert())
