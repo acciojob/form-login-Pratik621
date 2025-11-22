@@ -5,8 +5,8 @@ submit.addEventListener("click",()=>{
 	   getFormvalue()
 })
 function getFormvalue() {
-	const fname=document.querySelctor(".fname")
-const lname=document.querySelctor(".lname")
+	const fname=document.querySelector(".fname")
+const lname=document.querySelector(".lname")
 	return alert(`${fname.value} ${lname.value}`)
 	
 	
