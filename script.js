@@ -1,4 +1,6 @@
+
 function getFormvalue() {
+    
     const fname = document.querySelector('input[name="fname"]').value.trim();
     const lname = document.querySelector('input[name="lname"]').value.trim();
 
@@ -10,7 +12,8 @@ function getFormvalue() {
     document.querySelector('input[name="lname"]').value = '';
 }
 
+
 document.getElementById("form1").addEventListener("submit", function(e) {
-    e.preventDefault();
-    getFormvalue();
+    e.preventDefault(); 
+    getFormvalue();     
 });
